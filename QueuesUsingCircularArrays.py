@@ -1,4 +1,4 @@
-class CIRCULARIZATION:
+class CIRCULARARRAYQUEUE:
     #Define the max no of elements that our queue will hold
     DEFAULT_CAPACITY= 10
     def __init__(self):
@@ -86,7 +86,7 @@ class Empty(Exception):
 
 if __name__=='__main__':
     #Create a new queue
-    queue = CIRCULARIZATION()
+    queue = CIRCULARARRAYQUEUE()
     print("Queues using circular arrays")
     print(f"The initial queue size is: {len(queue)}")
     print(f"Is queue empty? {queue.is_empty()}")
